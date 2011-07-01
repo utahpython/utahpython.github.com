@@ -1,0 +1,54 @@
+/*
+ * http://lamb.cc/typograph/
+ */
+
+body {
+    font-size: 100%; line-height: 1.25;
+    text-align: center; }
+
+.container {
+    width: 40.5em; min-height: 57.25em;
+    text-align: left; margin: 0 auto; }
+
+.header {
+    text-align: center;
+    margin: 0 9em 0 4.5em; }
+
+.header h1 {
+    padding:1.51786em 0 0; }
+
+.header a {
+    color: #000; text-decoration: none; }
+
+.content {
+    text-align: justify;
+    margin: 2.125em 9em 9em 4.5em; }
+
+h1, h2, h3, h4 {
+    font-family: georgia; font-weight: normal;
+    margin-top: 0; margin-bottom: 0; }
+
+h1 { font-size:1.75em; padding:1.51786em 0; }
+h2 { font-size:1.5em; padding:1.45833em 0; }
+h3 { font-size:1.33333em; padding:1.25em 0; }
+h4 { font-size:1.16667em; padding:1.51786em 0; }
+
+
+/*
+ * http://www.blueprintcss.org/
+ */
+
+.small     { font-size: .8em; margin-bottom: 1.875em; line-height: 1.875em; }
+.large     { font-size: 1.2em; line-height: 2.5em; margin-bottom: 1.25em; }
+.hide      { display: none; }
+
+.quiet     { color: #666; }
+.loud      { color: #000; }
+.highlight { background:#ff0; }
+.added     { background:#060; color: #fff; }
+.removed   { background:#900; color: #fff; }
+
+.first     { margin-left:0; padding-left:0; }
+.last      { margin-right:0; padding-right:0; }
+.top       { margin-top:0; padding-top:0; }
+.bottom    { margin-bottom:0; padding-bottom:0; }
