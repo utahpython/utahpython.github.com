@@ -253,12 +253,12 @@ into the [SqlSoup documentation](http://www.sqlalchemy.org/trac/wiki/SqlSoup)
 **May** — Paul Cannon's Noodle
 [slides](https://groups.google.com/group/utahpython/web/noodle.pdf?hl=en)
 
-**April** — [Slides][pygame1a] and [source][pygame2a] from the presentation on
-[pygame3a][PyGame]
+**April** — [Slides][apygame1] and [source][apygame2] from the presentation on
+[PyGame][apygame3]
 
-[pygame1]: https://groups.google.com/group/utahpython/web/pygame.pdf?hl=en
-[pygame2]: https://groups.google.com/group/utahpython/web/pygame.zip?hl=en
-[pygame3]: http://pygame.org/
+[apygame1]: https://groups.google.com/group/utahpython/web/pygame.pdf?hl=en
+[apygame2]: https://groups.google.com/group/utahpython/web/pygame.zip?hl=en
+[apygame3]: http://pygame.org/
 
 **March** — notes from the [web frameworks meeting][webframe1], with links to
 some source code and slides
