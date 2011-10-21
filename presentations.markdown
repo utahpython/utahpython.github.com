@@ -9,6 +9,19 @@ Past Presentations
 2011
 ----
 
+**October 13** — Amjith Ramanujam presented on profiling Python programs ([slides][profiling1])
+
+[profiling1]: https://github.com/amjith/User-Group-Presentations/tree/master/profiling
+
+**September 8** — Stephen McQuay presented on virtualenv and virtualenvwrapper
+/ Matt Harrison presented on decorators.
+
+**August 11** — Stephen McQuay reported on the SciPy 2011 Conference
+
+**July 14** — Seth House presented on setup.py ([slides][setuppy1])
+
+[setuppy1]: https://github.com/whiteinge/presentations/tree/master/upyug_2011-07-11_setup.py
+
 **June 9** — Seth House presented on Python layout best practices modules /
 Django / CLI ([video][slayout1] | [slides][slayout2])
 
