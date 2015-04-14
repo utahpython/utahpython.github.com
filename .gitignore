@@ -3,4 +3,5 @@
 # sublime
 *.sublime-*
 _site
+static/bower_components
 
