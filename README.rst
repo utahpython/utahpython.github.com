@@ -1,4 +1,11 @@
-Utah Python User Group website
+# Utah Python User Group website
+
+## Local development
+
+0. Requirements: Pretty simple. You’ll need to install
+   [`jekyll`](http://jekyllrb.com/) and [`bower`](http://bower.io).
+
+## Resources
 
 For more information:
 
