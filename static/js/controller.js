@@ -5,6 +5,9 @@ angular.module('utahPython', ['ui.router'])
     // $urlRouterProvider.otherwise("/");
 
     $stateProvider
+      .state('home', {
+        url: "/"
+      })
       .state('about', {
         url: "/about",
         templateUrl: "about.html"
