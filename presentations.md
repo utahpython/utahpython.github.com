@@ -1,10 +1,9 @@
 ---
-layout: base
+layout: utahpython
 title: "Past Presentations"
 ---
 
-Past Presentations
-==================
+# Past Presentations
 
 2011
 ----

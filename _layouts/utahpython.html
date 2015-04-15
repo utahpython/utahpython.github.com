@@ -3,27 +3,11 @@ layout: base
 ---
 <div class='container' ui-view>
   <div class="header clearfix">
-    <nav>
-      <ul class="nav nav-pills pull-right">
-        <li role="presentation" class="active">
-          <a ui-sref="about">
-            About
-          </a>
-        </li>
-        <li role="presentation">
-          <a ui-sref="meetups">
-            Meetups
-          </a>
-        </li>
-        <li role="presentation">
-          <a ui-sref="past_present">Past Presentations</a>
-        </li>
-      </ul>
-    </nav>
+    {% include topnav.html %}
     <h3 class="text-muted">Utah Python</h3>
   </div>
 
-  <div class="row marketing" ui-view>
+  <div class="row marketing">
     {{ content }} 
   </div>
 
