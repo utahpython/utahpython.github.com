@@ -8,12 +8,12 @@ angular.module('utahPython', ['ui.router'])
       .state('about', {
         url: "/about",
         templateUrl: "about.html"
-      }).
+      })
       .state('meetups' {
         url: "/meetups",
         templateUrl: "meetups.html"
       })
-      .state('presentation', {
+      .state('past_present', {
         url: "/presentations",
         templateUrl: "presentations.html"
       });
