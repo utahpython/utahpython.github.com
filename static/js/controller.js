@@ -2,17 +2,17 @@
 
 angular.module('utahPython', ['ui.router'])
   .config(function($stateProvider, $urlRouterProvider){
-    $urlRouterProvider.otherwise("/");
+    // $urlRouterProvider.otherwise("/");
 
     $stateProvider
       .state('about', {
         url: "/about",
         templateUrl: "about.html"
       })
-      .state('meetups' {
-        url: "/meetups",
-        templateUrl: "meetups.html"
-      })
+      // .state('meetups' {
+      //   url: "/meetups",
+      //   templateUrl: "meetups.html"
+      // })
       .state('past_present', {
         url: "/presentations",
         templateUrl: "presentations.html"
