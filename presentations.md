@@ -1,6 +1,7 @@
 ---
 layout: utahpython
 title: "Past Presentations"
+present-nav: True
 ---
 
 # Past Presentations

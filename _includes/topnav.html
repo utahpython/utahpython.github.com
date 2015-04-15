@@ -1,21 +1,37 @@
 <nav>
   <ul class="nav nav-pills pull-right">
-    <li role="presentation">
+    <li role="presentation"
+    {% if page.home-nav %}
+      class="active"
+    {% endif %}
+      >
       <a ui-sref="home">
         <span class="glyphicon glyphicon-home"></span>
       </a>
     </li>
-    <li role="presentation">
+    <li role="presentation"
+    {% if page.about-nav %}
+      class="active"
+    {% endif %}
+    >
       <a ui-sref="about">
         About
       </a>
     </li>
-    <li role="presentation">
+    <li role="presentation"
+    {% if page.upcoming-nav %}
+      class="active"
+    {% endif %}
+    >
       <a ui-sref="upcoming">
         Meetups
       </a>
     </li>
-    <li role="presentation">
+    <li role="presentation"
+    {% if page.present-nav %}
+      class="active"
+    {% endif %}
+    >
       <a ui-sref="past_present">Past Presentations</a>
     </li>
   </ul>

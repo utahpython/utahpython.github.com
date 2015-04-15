@@ -7,6 +7,7 @@ url-archives: /presentations
 url-group: https://groups.google.com/forum/#!forum/utahpython
 url-subscribe: utahpython+subscribe@googlegroups.com
 url-post: utahpython@googlegroups.com
+home-nav: True
 ---
 {% include jumbotron.html %}
 

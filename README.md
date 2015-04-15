@@ -5,7 +5,7 @@
 0. Requirements: Pretty simple. You’ll need to install
    [`jekyll`](http://jekyllrb.com/) and [`bower`](http://bower.io).
 1. Install the bower components: `cd static/ && bower install`
-2. `jekyll serve`
+2. Start the local server: `jekyll serve`
 
 ## Resources
 
