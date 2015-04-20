@@ -10,6 +10,7 @@ url-neutron-map: https://goo.gl/maps/VZI0D
 url-utah-meetup: http://www.meetup.com/UtahPython/
 url-utah-north-meetup: http://www.meetup.com/Python-Utah-North/
 url-dupont-map: https://goo.gl/maps/rqX2I
+url-pyladies-meetup: http://www.meetup.com/Salt-Lake-Pyladies/
 ---
 
 ## Meetups
@@ -65,9 +66,6 @@ Location:
 The most up-to-date place to find out what topics are coming next is
 [the mailing list]({{ page.url-group }}).
 
-
-{% include meetuptmpl.html %}
-
 ### Logan
 
 <a class="btn btn-success" href="{{ page.url-utah-north-meetup }}"
@@ -77,6 +75,8 @@ The most up-to-date place to find out what topics are coming next is
   <span class="glyphicon glyphicon-new-window"></span>
 </a>
 
+Calling all Pythonistas in the Northern Utah/Southern Idaho area. This is a group for those interested in software development using the Python programming language. We will meet monthly in Logan to discuss aspects and capabilities of the language, as well as explore mechanisms for implementing these features in day-to-day code. We'll explore why Python is a great choice for web infrastructures, application infrastructures, as well as scientific data analysis. Avid and aspiring developers alike are welcome to join.
+
 Location:
 
 #### *Du Pont* [<span class="glyphicon glyphicon-map-marker"></span>]({{page.url-dupont-map}})
@@ -85,13 +85,20 @@ Location:
 
 ### PyLadies
 
-Meetings are held *every Tuesday* starting at **6:30pm**
+<a class="btn btn-success" href="{{ page.url-pyladies-meetup }}"
+  target="_blank" 
+  role="button">
+  Join Logan’s Meetup Group
+  <span class="glyphicon glyphicon-new-window"></span>
+</a>
 
-<p>Utah Pyladies provides educational and moral support for women who code.
+Meetings are typically held *every Tuesday* starting at **6:30pm**
+
+Utah Pyladies provides educational and moral support for women who code.
 Come hang out with women who are learning or have learned to code in
 Python. Share your coding projects, or find resources for learning. If
 you've never programmed at all, we'll help you get started. If you have, we
-want to learn from you!</p>
+want to learn from you!
 
 Location:
 
