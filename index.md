@@ -17,44 +17,7 @@ home-nav: True
 interested in Python technology. Everyone is invited to participate!</p>
 
 <div class="meetings">
-    <h2>Meetings</h2>
 
-    <p>The most up-to-date place to find out what topics are coming next is
-    <a href="{{ page.url-group }}">our mailing list</a>.</p>
-
-    <p>Meetings are held on the second Thursday of each month.<br>
-    6:30 to 8:45 P.M.</p>
-
-    <address>
-        Needle Inc.<br>
-        14864 Pony Express Road<br>
-        Bluffdale, UT 84065
-    </address>
-
-    <p>Just off I-15. <a href="{{ page.url-needle-map }}">(Map.)</a>.
-    Needle is in back, don't go to the C7 side of the buildings.</p>
-
-    <h2>PyLadies!</h2>
-
-    <p>The most up-to-date place to find out what topics are coming next is
-    <a href="{{ page.url-group }}">our mailing list</a>.</p>
-
-    <p>Meetings are held every Tuesday starting at 6:30 P.M.</p>
-
-    <p>Utah Pyladies provides educational and moral support for women who code.
-    Come hang out with women who are learning or have learned to code in
-    Python. Share your coding projects, or find resources for learning. If
-    you've never programmed at all, we'll help you get started. If you have, we
-    want to learn from you!</p>
-
-    <address>
-        HireVue<br>
-        Suite 600<br>
-        10876 S. Riverfront Pkwy<br>
-        South Jordan, UT 84095
-    </address>
-
-    <p>Just off I-15. <a href="{{ page.url-hirevue-map }}">(Map.)</a>.</p>
 </div>
 <div class="archives">
     <h2>Past presentations</h2>
