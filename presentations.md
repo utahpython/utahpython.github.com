@@ -9,43 +9,33 @@ present-nav: True
 ## 2011
 
 {:.table .table-bordered .table-striped}
-**October 13**|Amjith Ramanujam presented on profiling Python programs.|[slides](https://github.com/amjith/User-Group-Presentations/tree/master/profiling)
+**October 13**|Amjith Ramanujam presented on profiling Python programs.|[slides][profilepy]
 **September 8**|Stephen McQuay presented on virtualenv and virtualenvwrapper Matt Harrison presented on decorators.|
 **August 11**|Stephen McQuay reported on the SciPy 2011 Conference|
 **July 14**|Seth House presented on setup.py|([slides][setuppy1])
 **June 9**|Seth House presented on Python layout best practices modules Django / CLI|([video][slayout1]/[slides][slayout2])
+**May 12**|Thomas S. Hatch presented on [Salt](http://saltstack.org/)|([video][salt1]/[slides][salt2])
+**April 14**|Travis Hartwell presented on web automation|([presentation][webauto1])
+**March 17**|Argparse Intro - Clint Savage. PyCon coverage — Group. Language Features — Seth House|([Argparse Video][argparse1])([PyCon Audio][pycon2011])([Language Features video][langfeat1]/[Language feature slides][langfeat2])
+**February**|Seth House serenaded us with Sphinx: The Python Documentation Generator|([video][sphinx1]/[slides][sphinx2])
+**January**|No presentation (scheduling conflicts)|
 
+<!-- links -->
+
+[profilepy]: https://github.com/amjith/User-Group-Presentations/tree/master/profiling
+[setuppy1]: https://github.com/whiteinge/presentations/tree/master/upyug_2011-07-11_setup.py
 [slayout1]: http://blip.tv/utah-open-source/python-layout-best-practices-for-modules-django-cli-utah-django-user-group-5315808
 [slayout2]: https://github.com/whiteinge/presentations/tree/master/upyug_2011-06-09_program-layout
-
-**May 12** — Thomas S. Hatch presented on [Salt](http://saltstack.org/)
-([video][salt1] | [slides][salt2])
-
 [salt1]: http://blip.tv/thomas-s-hatch/salt-0-8-7-presentation-5180182
 [salt2]: https://github.com/downloads/thatch45/salt/Salt.pdf
-
-**April 14** — Travis Hartwell presented on web automation ([presentation][webauto1])
-
 [webauto1]: https://github.com/Nafai77/Presentations/tree/master/2011-04-14_utpy-web-automation
-
-**March 17** — Argparse Intro - Clint Savage ([Video][argparse1]) /
-PyCon coverage - Group ([Audio][pycon2011]) /
-Language Features - Seth House ([video][langfeat1] | [slides][langfeat2])
-
 [argparse1]: http://blip.tv/file/4902283
 [pycon2011]: http://herlo.org/misc/2011-03-17_-_1920_-_Utah_Python_-_Pycon_Recap-audio_only.ogg
 [langfeat1]: http://blip.tv/nathaniel-whiteinge/what-i-learned-at-pycon-2011-utah-python-user-group-4943960
 [langfeat2]: https://github.com/whiteinge/presentations/tree/master/upyug_2011-03-17_pycon
-
-**February** — Seth House serenaded us with Sphinx: The Python Documentation
-Generator ([video][sphinx1] | [slides][sphinx2])
-
 [sphinx1]: http://blip.tv/nathaniel-whiteinge/sphinx-utah-python-user-group-4923032
 [sphinx2]: https://github.com/whiteinge/presentations/tree/master/upyug_2011-02-10_sphinx
 
-**January** — No presentation (scheduling conflicts)
-
-[setuppy1]: https://github.com/whiteinge/presentations/tree/master/upyug_2011-07-11_setup.py
 
 2010
 ----
