@@ -31,14 +31,17 @@ angular.module('utahPython', ['ui.router'])
     // The signed url shouldn't contains any provate key information
     // It's created by using the meetup js api features
     meetup.signed_url = "https://api.meetup.com/2/events?offset=0&format=json&limited_events=False&group_urlname=UtahPython&page=200&fields=&order=time&desc=false&status=upcoming&sig_id=10704711&sig=7eb0b440ac115c04d9133423ec0eb94c8d6ded89"
+    // Required for JSON callbacks
+    meetup.signed_url = meetup.signed_url + "&callback=JSON_CALLBACK"
 
     meetup.events = [];
     meetup.hello = "Hello world";
 
-    meetup.loadMeetups = function loadGames () {
-      $http.get(meetup.signed_url)
+    meetup.loadMeetups = function loadMeetups() {
+      $http.jsonp(meetup.signed_url)
         .then(function success(result) {
-          meetup.events = result.data;
+          // console.log(result.data.results);
+          meetup.events = result.data.results;
           console.log(meetup.events);
         }, function error(error) {
           console.log(error);
