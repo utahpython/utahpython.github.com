@@ -32,12 +32,14 @@ Meetings are held on the *second Thursday* of each month:
 **6:30 to 8:45pm**
 
 <address>
-  Needle Inc.<br>
-  14864 Pony Express Road<br>
-  Bluffdale, UT 84065
 </address>
 
-<a class='btn btn-info' href="{{ page.url-needle-map }}">
+<a class='btn btn-info' href="{{ page.url-needle-map }}"
+title="
+  Needle Inc.
+  14864 Pony Express Road
+  Bluffdale, UT 84065
+">
   <span class="glyphicon glyphicon-map-marker"></span>
 </a>
 
