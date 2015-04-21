@@ -5,7 +5,13 @@
     |filter:{announced:true}
     |orderBy:event.time">
       <h2>
+        {{ event.time+event.utc_offset|date:"MMMM d, h:mma":"UTC" }}
+      </h2>
+      <h2>
         <a href='{{ event.event_url }}'>{{ event.name }}</a>
+        <a href='{{ event.gmap_url }}'>
+          <span class="glyphicon glyphicon-map-marker"></span>
+        </a>
       </h2>
       <div ng-bind-html="event.description">
       </div>

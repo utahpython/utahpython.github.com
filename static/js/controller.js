@@ -41,6 +41,10 @@ angular.module('utahPython', ['ui.router', 'ngSanitize'])
         .then(function success(result) {
           // console.log(result.data.results);
           meetup.events = result.data.results;
+
+          for (var i = meetup.events.length - 1; i >= 0; i--) {
+            meetup.events[i]['gmap_url'] = "https://maps.google.com/maps?q="+meetup.events[i]['venue']['lat']+","+meetup.events[i]['venue']['lon']+"&hl=es;z=14&output=embed";
+          };
         }, function error(error) {
           console.log(error);
         });
