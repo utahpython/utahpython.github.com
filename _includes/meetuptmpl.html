@@ -1,5 +1,19 @@
 {% raw %}
 <div ng-controller="MeetupCtrl as meetup">
-  {{ meetup.hello }}
+  <ul>
+    <li ng-repeat="event in meetup.events
+    |filter:{announced:true}
+    |orderBy:event.time">
+      <h2>
+        <a href='{{ event.event_url }}'>{{ event.name }}</a>
+      </h2>
+      <div>
+        {{ event|json }}
+      </div>
+    </li>
+  </ul>
 </div>
 {% endraw %}
+<script type="text/javascript">
+  var meetup_signed_url = "{{ include.meetup_signed_url }}";
+</script>
