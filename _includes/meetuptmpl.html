@@ -1,19 +1,26 @@
 {% raw %}
 <div ng-controller="MeetupCtrl as meetup">
-  <ul>
+  <ul class='list-unstyled'>
     <li ng-repeat="event in meetup.events
     |filter:{announced:true}
     |orderBy:event.time">
       <h2>
         {{ event.time+event.utc_offset|date:"MMMM d, h:mma":"UTC" }}
       </h2>
-      <h2>
-        <a href='{{ event.event_url }}'>{{ event.name }}</a>
-        <a href='{{ event.gmap_url }}'>
+      <h3>
+        <a ng-href='{{ event.event_url }}'>{{ event.name }}</a>
+        <a ng-href='{{ event.gmap_url }}'>
           <span class="glyphicon glyphicon-map-marker"></span>
         </a>
-      </h2>
+      </h3>
       <div ng-bind-html="event.description">
+      </div>
+      <div>
+        <a class="btn btn-lg btn-success"
+          ng-href="{{ event.event_url }}">
+          <small>{{ event.yes_rsvp_count }} Attending</small><br/>
+          <b>Join us!</b>
+        </a>
       </div>
       <div>
         {{ event|json }}

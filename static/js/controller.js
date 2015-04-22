@@ -12,9 +12,9 @@ angular.module('utahPython', ['ui.router', 'ngSanitize'])
         url: "/about",
         templateUrl: "about.html"
       })
-      .state('upcoming', {
-        url: "/upcoming",
-        templateUrl: "upcoming.html"
+      .state('locations', {
+        url: "/locations",
+        templateUrl: "locations.html"
       })
       .state('past_present', {
         url: "/presentations",

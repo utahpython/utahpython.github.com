@@ -6,6 +6,11 @@ present-nav: True
 
 # Past Presentations
 
+<div class="alert alert-warning">
+  <span class="glyphicon glyphicon-warning-sign"></span>
+  This page is still undergoing updates.
+</div>
+
 ## 2011
 
 {:.table .table-bordered .table-striped}

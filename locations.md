@@ -1,6 +1,6 @@
 ---
 layout: utahpython
-title: "Meetups"
+title: "Locations"
 upcoming-nav: True
 url-needle-map: http://maps.google.com/maps?q=14864+Pony+Express+Dr.+Bluffdale,+UT+84065
 url-group: https://groups.google.com/forum/#!forum/utahpython
@@ -13,7 +13,7 @@ url-dupont-map: https://goo.gl/maps/rqX2I
 url-pyladies-meetup: http://www.meetup.com/Salt-Lake-Pyladies/
 ---
 
-## Meetups
+## Locations
 
 Utah Python a number of different meetups around Utah.
 
