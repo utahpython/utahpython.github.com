@@ -18,3 +18,7 @@ For more information:
 To help edit our site, join our Github Organization:
 
 https://github.com/organizations/utahpython
+
+## Old Site:
+
+The old site's code can be found in the [old_site](https://github.com/utahpython/utahpython.github.com/releases/tag/old_site) tag.
