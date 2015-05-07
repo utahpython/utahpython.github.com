@@ -1,3 +1,7 @@
 # vim swap files
 .*sw*
+# sublime
+*.sublime-*
+_site
+static/bower_components
 

@@ -1,0 +1,22 @@
+{
+  "name": "utahpython",
+  "version": "0.0.0",
+  "homepage": "https://github.com/utahpython/utahpython.github.com",
+  "authors": [
+    "Faris Chebib <faris@theluckybead.com>"
+  ],
+  "description": "Packages for utah python",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "~0.2.13",
+    "bootstrap": "~3.3.4",
+    "angular-sanitize": "~1.3.15"
+  }
+}
