@@ -15,7 +15,7 @@ url-pyladies-meetup: http://www.meetup.com/Salt-Lake-Pyladies/
 
 ## Locations
 
-Utah Python a number of different meetups around Utah.
+Utah Python hosts a number of different meetups around the state.
 
 ### Salt Lake City
 
@@ -40,12 +40,12 @@ Locations vary — check the [meetup group page](http://www.meetup.com/UtahPytho
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.901551146637!2d-111.89731!3d40.76419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f5046421116b%3A0x71ff923ca471fd0!2sNeutron+Interactive!5e0!3m2!1sen!2sca!4v1429567067294" width="400" height="300" frameborder="0" style="border:0"></iframe>
 
-### Draper
+### South Valley
 
 <a class="btn btn-success" href="http://www.meetup.com/UtahPython/"
   target="_blank" 
   role="button">
-  Join Draper’s Meetup Group
+  Join South Valley’s Meetup Group
   <span class="glyphicon glyphicon-new-window"></span>
 </a>
 
