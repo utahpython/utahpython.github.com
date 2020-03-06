@@ -19,7 +19,7 @@ Utah Python hosts a number of different meetups around the state.
 
 ### Salt Lake City
 
-<a class="btn btn-success" href="http://www.meetup.com/UtahPython/"
+<a class="btn btn-success" href="https://www.meetup.com/UtahPython/"
   target="_blank" 
   role="button">
   Join SLC’s Meetup Group
@@ -30,7 +30,22 @@ Meetings are held on the *first Wednesday* of each month.
 
 Starting times vary between **6:30pm** and **7:30pm**
 
-Locations vary — check the [meetup group page](http://www.meetup.com/UtahPython/) for details:
+Locations vary — check the [meetup group page](https://www.meetup.com/UtahPython/) for details
+
+### Lehi - (Python at the Point)
+
+<a class="btn btn-success" href="https://www.meetup.com/PythonAtThePoint/"
+  target="_blank"
+  role="button">
+  Join SLC’s Meetup Group
+  <span class="glyphicon glyphicon-new-window"></span>
+</a>
+
+Meetings are held on the *second Thursday* of each month.
+
+It is a lunch meetup, with starting time at exactly noon.
+
+Locations vary - check the [meetup group page](https://www.meetup.com/PythonAtThePoint/) for details
 
 #### *Zaniac Sugar House* [<span class="glyphicon glyphicon-map-marker"></span>]({{page.url-zaniac-map}})
 
